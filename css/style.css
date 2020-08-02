@@ -1,0 +1,72 @@
+body {
+  background-color: #63e2d1;
+  width: 900px;
+  height: 350px;
+}
+
+.main {
+  margin: 0px;
+  width: 900px;
+  height: 350px;
+}
+
+.content {
+  background-color: white;
+  margin: 150px 200px;
+  height: 450px;
+  width: 1000px;
+  align-self: center;
+  font-family: "Montserrat";
+  padding: 50px;
+  position: relative;
+}
+
+.info {
+  font-size: 50px;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.subinfo {
+  font-size: 30px;
+}
+
+.contact {
+  font-size: 25px;
+  position: absolute;
+  margin-left: 100px;
+  bottom: 100px;
+}
+
+.icons {
+  margin-top: 70px;
+  margin-left: 50px;
+  justify-content: center;
+  align-self: center;
+}
+
+img {
+  padding: 15px;
+  width: 90px;
+  height: 90px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 50px;
+  padding: 10px;
+}
+
+.grid-item {
+  padding: 20px;
+}
+
+.circle {
+  height: 120px;
+  width: 120px;
+  background-color: #63e2d1;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 10px;
+}
